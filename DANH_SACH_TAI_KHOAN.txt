@@ -1,0 +1,47 @@
+DANH SACH TAI KHOAN VA MAT KHAU HE THONG LMS
+=============================================
+Mat khau chung cho tat ca Giang vien va Hoc sinh: 123456
+Dia chi dang nhap Web: http://localhost:5173/login
+
+----------------------------------------------------------------------
+1. TAI KHOAN QUAN TRI VIEN (ADMIN)
+----------------------------------------------------------------------
+- Email: admin@lms.com
+  Mat khau: admin123
+  Ho ten: Administrator
+  Vai tro: ADMIN (Quan tri toan he thong)
+
+----------------------------------------------------------------------
+2. DANH SACH 5 GIANG VIEN (INSTRUCTOR)
+   (Mat khau chung: 123456)
+----------------------------------------------------------------------
+1. ThS. Nguyen Van Hung  | Email: gv.hung@lms.com  | Mat khau: 123456
+2. TS. Tran Thi Mai      | Email: gv.mai@lms.com   | Mat khau: 123456
+3. ThS. Le Hoang Nam     | Email: gv.nam@lms.com   | Mat khau: 123456
+4. TS. Pham Minh Tuan    | Email: gv.tuan@lms.com  | Mat khau: 123456
+5. ThS. Do Thao Linh     | Email: gv.linh@lms.com  | Mat khau: 123456
+
+----------------------------------------------------------------------
+3. DANH SACH 20 HOC SINH / SINH VIEN (STUDENT)
+   (Mat khau chung: 123456)
+----------------------------------------------------------------------
+1.  Nguyen Hoang Anh     | Email: hs.anh@lms.com   | Mat khau: 123456
+2.  Tran Bao Binh        | Email: hs.binh@lms.com  | Mat khau: 123456
+3.  Le Minh Cuong        | Email: hs.cuong@lms.com | Mat khau: 123456
+4.  Pham Tien Dung       | Email: hs.dung@lms.com  | Mat khau: 123456
+5.  Hoang Nhat Duy       | Email: hs.duy@lms.com   | Mat khau: 123456
+6.  Dang My Duyen        | Email: hs.duyen@lms.com | Mat khau: 123456
+7.  Bui Thu Ha           | Email: hs.ha@lms.com    | Mat khau: 123456
+8.  Vu Quoc Huy          | Email: hs.huy@lms.com   | Mat khau: 123456
+9.  Do Gia Khanh         | Email: hs.khanh@lms.com | Mat khau: 123456
+10. Ngo Quang Khai       | Email: hs.khai@lms.com  | Mat khau: 123456
+11. Duong Bich Loan      | Email: hs.loan@lms.com  | Mat khau: 123456
+12. Ly Hong Nhung        | Email: hs.nhung@lms.com | Mat khau: 123456
+13. Mai Thanh Phong      | Email: hs.phong@lms.com | Mat khau: 123456
+14. Phan Quynh Phuong    | Email: hs.phuong@lms.com| Mat khau: 123456
+15. Trinh Minh Quan      | Email: hs.quan@lms.com  | Mat khau: 123456
+16. Doan Thanh Son       | Email: hs.son@lms.com   | Mat khau: 123456
+17. Cao Anh Thai         | Email: hs.thai@lms.com  | Mat khau: 123456
+18. Dinh Thi Trang       | Email: hs.trang@lms.com | Mat khau: 123456
+19. Ho Anh Tu            | Email: hs.tu@lms.com    | Mat khau: 123456
+20. Vo Hai Yen           | Email: hs.yen@lms.com   | Mat khau: 123456

@@ -1,0 +1,62 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: lms-backend
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/lmsdb}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:123}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: true
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+# JWT Configuration
+jwt:
+  secret: ${JWT_SECRET:myDefaultSuperSecretKeyForDevelopmentOnlyMustBeAtLeast256BitsLong!}
+  expiration: 86400000  # 24 hours in milliseconds
+
+# SpringDoc / Swagger
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: method
+
+# Default Admin Configuration
+app:
+  default-admin:
+    email: ${ADMIN_EMAIL:admin@lms.com}
+    password: ${ADMIN_PASSWORD:admin123}
+    name: ${ADMIN_NAME:Administrator}
+  upload:
+    dir: ${UPLOAD_DIR:uploads}
+
+# Logging
+logging:
+  level:
+    com.lms: DEBUG
+    org.springframework.security: INFO
+

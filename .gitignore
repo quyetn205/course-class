@@ -1,0 +1,56 @@
+# ==========================================
+# Root .gitignore for EduCore LMS (Monorepo)
+# ==========================================
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# --- IDE & Editors ---
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# --- Scratch & Temporary Scripts ---
+scratch/
+*.tmp
+*.bak
+
+# --- Backend (Spring Boot & Maven) ---
+backend/target/
+backend/uploads/**
+!backend/uploads/**/.gitkeep
+backend/*.log
+backend/logs/
+backend/.flattened-pom.xml
+
+# --- Frontend (Vite & Node.js) ---
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/.eslintcache
+frontend/*.tsbuildinfo

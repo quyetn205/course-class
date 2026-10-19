@@ -1,0 +1,31 @@
+# ==========================================
+# Backend .gitignore (Spring Boot & Maven)
+# ==========================================
+
+# Target build directory
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Uploaded user media & files (ignore content, keep structure via .gitkeep)
+uploads/**
+!uploads/**/.gitkeep
+
+# Environment files
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
